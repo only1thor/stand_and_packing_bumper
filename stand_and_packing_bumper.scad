@@ -29,3 +29,7 @@ module side(y){
 
 side(-5);
 side(5);
+
+// "laptop"
+translate([7,0,10])
+%cube([2,25,20],center=true);
